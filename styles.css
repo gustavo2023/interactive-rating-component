@@ -116,7 +116,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1.5rem;
+  padding: 1.5rem 1.8rem;
   gap: 1rem;
 }
 
@@ -160,6 +160,7 @@ legend {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  margin: 0.8rem 0;
 }
 
 .radio-input-option {
@@ -192,15 +193,31 @@ legend {
 
 .radio-input-option input[type="radio"]:hover + label {
   background-color: var(--orange-500);
-  color: var(--grey-900);
+  color: var(--grey-950);
 }
 
 .radio-input-option input[type="radio"]:checked + label {
   background-color: var(--white);
-  color: var(--grey-900);
+  color: var(--grey-950);
 }
 
 .radio-input-option input[type="radio"]:focus-visible + label {
   outline: 2px solid dodgerblue;
   outline-offset: 2px;
+}
+
+.submit-btn {
+  background-color: var(--orange-500);
+  color: var(--grey-950);
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  padding: 0.8rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: var(--white);
 }
