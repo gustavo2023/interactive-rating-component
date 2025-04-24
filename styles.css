@@ -78,3 +78,52 @@ textarea:not([rows]) {
   --grey-900: #252d37;
   --grey-950: #121417;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Overpass", sans-serif;
+  background-color: var(--grey-950);
+  padding: 40px 20px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grey-900);
+  border-radius: 15px;
+}
+
+.rating-component-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: #2e3641;
+  border-radius: 50%;
+}
