@@ -24,5 +24,54 @@
 
     <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <h1 class="visually-hidden">Rating Component</h1>
+    <main>
+      <div class="img-container">
+        <img src="./images/icon-star.svg" alt="Golden star icon" />
+      </div>
+      <form id="rating-form">
+        <fieldset>
+          <legend>How did we do?</legend>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="rating-options">
+            <div class="radio-input-option">
+              <input type="radio" name="rating" id="rating-1" value="1" /><label
+                for="rating-1"
+                >1</label
+              >
+            </div>
+            <div class="radio-input-option">
+              <input type="radio" name="rating" id="rating-2" value="2" /><label
+                for="rating-2"
+                >2</label
+              >
+            </div>
+            <div class="radio-input-option">
+              <input type="radio" name="rating" id="rating-3" value="3" /><label
+                for="rating-3"
+                >3</label
+              >
+            </div>
+            <div class="radio-input-option">
+              <input type="radio" name="rating" id="rating-4" value="4" /><label
+                for="rating-4"
+                >4</label
+              >
+            </div>
+            <div class="radio-input-option">
+              <input type="radio" name="rating" id="rating-5" value="5" /><label
+                for="rating-5"
+                >5</label
+              >
+            </div>
+          </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
 </html>
