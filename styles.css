@@ -113,7 +113,7 @@ main {
 }
 
 .rating-component-container {
-  display: none;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 1.5rem 1.8rem;
@@ -230,7 +230,7 @@ h2 {
 }
 
 .thank-you-state {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
