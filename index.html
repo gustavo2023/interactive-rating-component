@@ -27,8 +27,9 @@
   <body>
     <h1 class="visually-hidden">Rating Component</h1>
     <main>
+      <!-- Rating Component -->
       <div class="rating-component-container">
-        <div class="img-container">
+        <div class="star-img-container">
           <img src="./images/icon-star.svg" alt="Golden star icon" />
         </div>
         <form id="rating-form">
@@ -45,6 +46,7 @@
                   name="rating"
                   id="rating-1"
                   value="1"
+                  required
                 /><label for="rating-1">1</label>
               </div>
               <div class="radio-input-option">
@@ -53,6 +55,7 @@
                   name="rating"
                   id="rating-2"
                   value="2"
+                  required
                 /><label for="rating-2">2</label>
               </div>
               <div class="radio-input-option">
@@ -61,6 +64,7 @@
                   name="rating"
                   id="rating-3"
                   value="3"
+                  required
                 /><label for="rating-3">3</label>
               </div>
               <div class="radio-input-option">
@@ -69,6 +73,7 @@
                   name="rating"
                   id="rating-4"
                   value="4"
+                  required
                 /><label for="rating-4">4</label>
               </div>
               <div class="radio-input-option">
@@ -77,6 +82,7 @@
                   name="rating"
                   id="rating-5"
                   value="5"
+                  required
                 /><label for="rating-5">5</label>
               </div>
             </div>
@@ -85,6 +91,22 @@
             SUBMIT
           </button>
         </form>
+      </div>
+
+      <!-- Thank you State Component -->
+      <div class="thank-you-state">
+        <div class="thanks-img-container">
+          <img
+            src="./images/illustration-thank-you.svg"
+            alt="Phone with light blue paper coming out of screen and an orange card and circle around it"
+          />
+        </div>
+        <p class="rating-result-display">You selected 4 out of 5</p>
+        <h2>Thank you!</h2>
+        <p class="thanks-message">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
       </div>
     </main>
   </body>
